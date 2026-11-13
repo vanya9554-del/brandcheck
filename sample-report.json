@@ -1,0 +1,851 @@
+{
+  "schema_version": "1.0",
+  "tool": {
+    "name": "brandcheck",
+    "version": "1.0.0",
+    "repo": "https://github.com/vanya9554-del/brandcheck"
+  },
+  "generated_at": "2026-11-13T23:37:18Z",
+  "elapsed_seconds": 34.78,
+  "params": {
+    "tlds": [
+      "com",
+      "io",
+      "ai",
+      "co"
+    ],
+    "platforms": [
+      "github",
+      "x",
+      "telegram",
+      "reddit",
+      "instagram"
+    ],
+    "apps": true,
+    "web": true,
+    "trademarks": true,
+    "indirect": false
+  },
+  "results": [
+    {
+      "name": "novacat",
+      "handle": "novacat",
+      "checked_at": "2026-11-13T23:37:18Z",
+      "checks": {
+        "domain:com": {
+          "status": "taken",
+          "confidence": "high",
+          "source": "https://rdap.org/domain/novacat.com",
+          "checked_at": "2026-11-13T23:36:44Z",
+          "details": {
+            "domain": "novacat.com",
+            "ldh_name": "NOVACAT.COM",
+            "statuses": [
+              "client transfer prohibited"
+            ],
+            "registrar": "Key-Systems GmbH",
+            "events": {
+              "registration": "2010-08-14T18:51:52Z",
+              "expiration": "2028-08-14T18:51:52Z",
+              "last changed": "2026-10-28T15:59:53Z",
+              "last update of RDAP database": "2026-11-13T23:36:33Z"
+            }
+          },
+          "note": "RDAP found a registration"
+        },
+        "domain:io": {
+          "status": "free",
+          "confidence": "high",
+          "source": "https://rdap.org/domain/novacat.io",
+          "checked_at": "2026-11-13T23:36:44Z",
+          "details": {
+            "domain": "novacat.io"
+          },
+          "note": "RDAP: no registration (404)"
+        },
+        "domain:ai": {
+          "status": "free",
+          "confidence": "high",
+          "source": "https://rdap.org/domain/novacat.ai",
+          "checked_at": "2026-11-13T23:36:45Z",
+          "details": {
+            "domain": "novacat.ai"
+          },
+          "note": "RDAP: no registration (404)"
+        },
+        "domain:co": {
+          "status": "free",
+          "confidence": "medium",
+          "source": "https://rdap.org/domain/novacat.co",
+          "checked_at": "2026-11-13T23:36:45Z",
+          "details": {
+            "domain": "novacat.co",
+            "rdap_status": 429,
+            "rdap_error": "HTTP 429"
+          },
+          "note": "DNS: NXDOMAIN (RDAP unavailable)"
+        },
+        "github": {
+          "status": "taken",
+          "confidence": "high",
+          "source": "https://api.github.com/users/novacat",
+          "checked_at": "2026-11-13T23:36:44Z",
+          "details": {
+            "login": "Novacat",
+            "name": null,
+            "public_repos": 5,
+            "created_at": "2018-01-19T03:35:20Z"
+          },
+          "note": "GitHub user exists"
+        },
+        "x": {
+          "status": "unknown",
+          "confidence": "low",
+          "source": "https://x.com/novacat",
+          "checked_at": "2026-11-13T23:37:16Z",
+          "details": {
+            "error": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+          },
+          "note": "X blocked the request / timeout"
+        },
+        "telegram": {
+          "status": "unknown",
+          "confidence": "low",
+          "source": "https://t.me/novacat",
+          "checked_at": "2026-11-13T23:37:16Z",
+          "details": {
+            "error": "URLError: <urlopen error timed out>"
+          },
+          "note": "Telegram blocked the request / timeout"
+        },
+        "reddit": {
+          "status": "unknown",
+          "confidence": "low",
+          "source": "https://www.reddit.com/user/novacat/about.json",
+          "checked_at": "2026-11-13T23:36:45Z",
+          "details": {
+            "error": "HTTP 403"
+          },
+          "note": "Reddit blocked anonymous access (429/403); verify manually"
+        },
+        "instagram": {
+          "status": "unknown",
+          "confidence": "low",
+          "source": "https://www.instagram.com/novacat/",
+          "checked_at": "2026-11-13T23:37:17Z",
+          "details": {
+            "error": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+          },
+          "note": "Instagram blocked the request / timeout"
+        },
+        "itunes": {
+          "status": "free",
+          "confidence": "medium",
+          "source": "https://itunes.apple.com/search?term=novacat&entity=software&country=us&limit=10",
+          "checked_at": "2026-11-13T23:36:46Z",
+          "details": {
+            "result_count": 5,
+            "exact_match": false,
+            "top_results": [
+              {
+                "name": "NovaTV",
+                "seller": "Nova Broadcasting Group EOOD",
+                "bundle_id": "com.novabroadcastinggroup.novaTV"
+              },
+              {
+                "name": "Novacura Flow Classic",
+                "seller": "Novacura AB",
+                "bundle_id": "se.novacura.flow.ng"
+              },
+              {
+                "name": "NuTech",
+                "seller": "Nutech Paint Pty. Ltd.",
+                "bundle_id": "com.nutech.app"
+              },
+              {
+                "name": "RVL Nova",
+                "seller": "REM GORSEL VERI ISLEME VE ANALITIK HIZMETLERI BILISIM SANAYI TICARET ANONIM SIRKETI",
+                "bundle_id": "com.rvl.rvlmobile"
+              },
+              {
+                "name": "VoyJoy",
+                "seller": "NOVA AI CLOUD LTD",
+                "bundle_id": "com.voyjoy.app"
+              }
+            ]
+          },
+          "note": "No exact-name app, but similar apps exist"
+        },
+        "google_play": {
+          "status": "unknown",
+          "confidence": "low",
+          "source": "https://play.google.com/store/search?q=novacat&c=apps&hl=en&gl=US",
+          "checked_at": "2026-11-13T23:37:18Z",
+          "details": {
+            "direct": false,
+            "search_provider": "bing",
+            "search_hits": [],
+            "error": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+          },
+          "note": "Google Play page unavailable (blocked / timeout)"
+        },
+        "web": {
+          "status": "taken",
+          "confidence": "low",
+          "source": "https://duckduckgo.com/?q=%22novacat%22",
+          "checked_at": "2026-11-13T23:36:47Z",
+          "details": {
+            "provider": "bing",
+            "count": 10,
+            "top_results": [
+              {
+                "title": "NovaCat - NSU Libraries Catalog",
+                "url": "https://novacat.nova.edu/",
+                "domain": "novacat.nova.edu"
+              },
+              {
+                "title": "Novacat - VRChat Avatar (Novabeast Edit)",
+                "url": "https://auroraskull.gumroad.com/l/Novacat",
+                "domain": "auroraskull.gumroad.com"
+              },
+              {
+                "title": "Home - Novacat",
+                "url": "https://novacat.net/",
+                "domain": "novacat.net"
+              },
+              {
+                "title": "Novacat - VRChat Avatar (Novabeast Edit) by Aurora_Skull - Jinxxy",
+                "url": "https://jinxxy.com/Aurora_Skull/Novacat",
+                "domain": "jinxxy.com"
+              },
+              {
+                "title": "NovaCat by _Meia_ - Jinxxy",
+                "url": "https://jinxxy.com/_Meia_/NovaCat",
+                "domain": "jinxxy.com"
+              }
+            ]
+          },
+          "note": "Name appears in search results (collision risk)"
+        },
+        "trademarks": {
+          "status": "unknown",
+          "confidence": "medium",
+          "source": "https://duckduckgo.com/?q=\"novacat\"+trademark",
+          "checked_at": "2026-11-13T23:36:47Z",
+          "details": {
+            "manual": true,
+            "official_links": {
+              "USPTO (US)": "https://tmsearch.uspto.gov/search/search-information",
+              "USPTO TSDR (status)": "https://tsdr.uspto.gov/",
+              "EUIPO eSearch (EU)": "https://euipo.europa.eu/eSearch/",
+              "WIPO Global Brand DB": "https://branddb.wipo.int/"
+            },
+            "search_links": {
+              "web search": "https://duckduckgo.com/?q=\"novacat\"+trademark",
+              "USPTO search": "https://tmsearch.uspto.gov/search/search-information",
+              "EUIPO search": "https://euipo.europa.eu/eSearch/",
+              "WIPO search": "https://branddb.wipo.int/"
+            },
+            "public_hits": [
+              {
+                "title": "NOVACAT Trademark of Mitsubishi Kagaku Kabushiki Kaisha trading …",
+                "url": "https://www.trademarkelite.com/europe/trademark/trademark-detail/005641378/NOVACAT",
+                "domain": "www.trademarkelite.com"
+              },
+              {
+                "title": "NOVACAT Trademark - Registration Number 2636516 - Serial …",
+                "url": "https://trademarks.justia.com/760/74/novacat-76074545.html",
+                "domain": "trademarks.justia.com"
+              },
+              {
+                "title": "NOVACAT - Nova Chemicals Inc. Trademark Registration",
+                "url": "https://uspto.report/TM/77318333/",
+                "domain": "uspto.report"
+              },
+              {
+                "title": "NOVACAT - Mitsubishi Chemical Corporation Trademark Registration",
+                "url": "https://uspto.report/TM/77090816",
+                "domain": "uspto.report"
+              },
+              {
+                "title": "NOVACAT Trademark - Serial Number 77090816 :: Justia Trademarks",
+                "url": "https://trademarks.justia.com/770/90/novacat-77090816.html",
+                "domain": "trademarks.justia.com"
+              }
+            ],
+            "search_provider": "bing",
+            "public_search_blocked": false,
+            "checked_public_search": true
+          },
+          "note": "Public search surfaced trademark-related results — verify manually"
+        }
+      },
+      "summary": {
+        "domains": {
+          "free": [
+            "io",
+            "ai",
+            "co"
+          ],
+          "taken": [
+            "com"
+          ],
+          "unknown": [],
+          "free_count": 3,
+          "taken_count": 1,
+          "unknown_count": 0
+        },
+        "handles": {
+          "free": [],
+          "taken": [
+            "github"
+          ],
+          "unknown": [
+            "x",
+            "telegram",
+            "reddit",
+            "instagram"
+          ],
+          "free_count": 0,
+          "taken_count": 1,
+          "unknown_count": 4
+        },
+        "verdict": "likely taken"
+      }
+    },
+    {
+      "name": "bitforge",
+      "handle": "bitforge",
+      "checked_at": "2026-11-13T23:37:17Z",
+      "checks": {
+        "domain:com": {
+          "status": "taken",
+          "confidence": "high",
+          "source": "https://rdap.org/domain/bitforge.com",
+          "checked_at": "2026-11-13T23:36:44Z",
+          "details": {
+            "domain": "bitforge.com",
+            "ldh_name": "BITFORGE.COM",
+            "statuses": [
+              "active"
+            ],
+            "registrar": "eNom, LLC",
+            "events": {
+              "registration": "1995-06-13T04:00:00Z",
+              "expiration": "2027-06-12T04:00:00Z",
+              "last changed": "2026-05-14T06:26:06Z",
+              "last update of RDAP database": "2026-11-13T23:36:33Z"
+            }
+          },
+          "note": "RDAP found a registration"
+        },
+        "domain:io": {
+          "status": "free",
+          "confidence": "high",
+          "source": "https://rdap.org/domain/bitforge.io",
+          "checked_at": "2026-11-13T23:36:44Z",
+          "details": {
+            "domain": "bitforge.io"
+          },
+          "note": "RDAP: no registration (404)"
+        },
+        "domain:ai": {
+          "status": "taken",
+          "confidence": "high",
+          "source": "https://rdap.org/domain/bitforge.ai",
+          "checked_at": "2026-11-13T23:36:45Z",
+          "details": {
+            "domain": "bitforge.ai",
+            "ldh_name": "bitforge.ai",
+            "statuses": [
+              "client transfer prohibited"
+            ],
+            "registrar": "NameCheap, Inc.",
+            "events": {
+              "expiration": "2027-07-04T15:25:07.308Z",
+              "registration": "2025-07-04T15:25:07.308Z",
+              "last changed": "2026-08-12T08:54:25.104Z",
+              "last update of RDAP database": "2026-11-13T23:36:45.31Z"
+            }
+          },
+          "note": "RDAP found a registration"
+        },
+        "domain:co": {
+          "status": "taken",
+          "confidence": "medium",
+          "source": "https://rdap.org/domain/bitforge.co",
+          "checked_at": "2026-11-13T23:36:45Z",
+          "details": {
+            "domain": "bitforge.co",
+            "ip": [
+              "13.248.169.48",
+              "76.223.54.146"
+            ],
+            "rdap_status": 429,
+            "rdap_error": "HTTP 429"
+          },
+          "note": "DNS resolves (RDAP unavailable)"
+        },
+        "github": {
+          "status": "taken",
+          "confidence": "high",
+          "source": "https://api.github.com/users/bitforge",
+          "checked_at": "2026-11-13T23:36:44Z",
+          "details": {
+            "login": "bitforge",
+            "name": "Bitforge AG",
+            "public_repos": 7,
+            "created_at": "2020-10-14T18:07:22Z"
+          },
+          "note": "GitHub user exists"
+        },
+        "x": {
+          "status": "unknown",
+          "confidence": "low",
+          "source": "https://x.com/bitforge",
+          "checked_at": "2026-11-13T23:37:16Z",
+          "details": {
+            "error": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+          },
+          "note": "X blocked the request / timeout"
+        },
+        "telegram": {
+          "status": "unknown",
+          "confidence": "low",
+          "source": "https://t.me/bitforge",
+          "checked_at": "2026-11-13T23:37:16Z",
+          "details": {
+            "error": "URLError: <urlopen error timed out>"
+          },
+          "note": "Telegram blocked the request / timeout"
+        },
+        "reddit": {
+          "status": "unknown",
+          "confidence": "low",
+          "source": "https://www.reddit.com/user/bitforge/about.json",
+          "checked_at": "2026-11-13T23:36:45Z",
+          "details": {
+            "error": "HTTP 403"
+          },
+          "note": "Reddit blocked anonymous access (429/403); verify manually"
+        },
+        "instagram": {
+          "status": "unknown",
+          "confidence": "low",
+          "source": "https://www.instagram.com/bitforge/",
+          "checked_at": "2026-11-13T23:37:17Z",
+          "details": {
+            "error": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+          },
+          "note": "Instagram blocked the request / timeout"
+        },
+        "itunes": {
+          "status": "free",
+          "confidence": "medium",
+          "source": "https://itunes.apple.com/search?term=bitforge&entity=software&country=us&limit=10",
+          "checked_at": "2026-11-13T23:36:46Z",
+          "details": {
+            "result_count": 7,
+            "exact_match": false,
+            "top_results": [
+              {
+                "name": "Orbital",
+                "seller": "bitforge Ltd.",
+                "bundle_id": "ch.bitforge.orbital"
+              },
+              {
+                "name": "Swiss AR Map",
+                "seller": "bitforge Ltd.",
+                "bundle_id": "ch.bitforge.swissarmap"
+              },
+              {
+                "name": "Bitwarden Password Manager",
+                "seller": "Bitwarden Inc",
+                "bundle_id": "com.8bit.bitwarden"
+              },
+              {
+                "name": "STRIKE: Buy & Hold Bitcoin",
+                "seller": "Zap Solutions, Inc",
+                "bundle_id": "com.jackmallers.Strike"
+              },
+              {
+                "name": "Bitget Wallet: Crypto, PayFi",
+                "seller": "BitKeep Global Inc.",
+                "bundle_id": "com.bitkeep.os"
+              }
+            ]
+          },
+          "note": "No exact-name app, but similar apps exist"
+        },
+        "google_play": {
+          "status": "unknown",
+          "confidence": "low",
+          "source": "https://play.google.com/store/search?q=bitforge&c=apps&hl=en&gl=US",
+          "checked_at": "2026-11-13T23:37:17Z",
+          "details": {
+            "direct": false,
+            "search_provider": "bing",
+            "search_hits": [],
+            "error": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+          },
+          "note": "Google Play page unavailable (blocked / timeout)"
+        },
+        "web": {
+          "status": "taken",
+          "confidence": "low",
+          "source": "https://duckduckgo.com/?q=%22bitforge%22",
+          "checked_at": "2026-11-13T23:36:46Z",
+          "details": {
+            "provider": "bing",
+            "count": 10,
+            "top_results": [
+              {
+                "title": "BitforgeGames - Reddit",
+                "url": "https://www.reddit.com/r/BitforgeGames/",
+                "domain": "www.reddit.com"
+              },
+              {
+                "title": "Bitforgestudios (u/Bitforgestudios) - Reddit",
+                "url": "https://www.reddit.com/user/Bitforgestudios/",
+                "domain": "www.reddit.com"
+              },
+              {
+                "title": "Orbital - simple old game, slowed to a crawl on modern Android ... - Reddit",
+                "url": "https://www.reddit.com/r/AndroidGaming/comments/16f4ces/orbital_simple_old_game_slowed_to_a_crawl_on/",
+                "domain": "www.reddit.com"
+              },
+              {
+                "title": "0 to 90 in 30 Boxes : r/oscp - Reddit",
+                "url": "https://www.reddit.com/r/oscp/comments/xl0fkd/0_to_90_in_30_boxes/",
+                "domain": "www.reddit.com"
+              },
+              {
+                "title": "BITFORGE MINING - EARN 1.8 % to 2.8 % DAILY - : r/dapps - Reddit",
+                "url": "https://www.reddit.com/r/dapps/comments/13drx4x/bitforge_mining_earn_18_to_28_daily/",
+                "domain": "www.reddit.com"
+              }
+            ]
+          },
+          "note": "Name appears in search results (collision risk)"
+        },
+        "trademarks": {
+          "status": "manual",
+          "confidence": "low",
+          "source": "https://duckduckgo.com/?q=\"bitforge\"+trademark",
+          "checked_at": "2026-11-13T23:36:47Z",
+          "details": {
+            "manual": true,
+            "official_links": {
+              "USPTO (US)": "https://tmsearch.uspto.gov/search/search-information",
+              "USPTO TSDR (status)": "https://tsdr.uspto.gov/",
+              "EUIPO eSearch (EU)": "https://euipo.europa.eu/eSearch/",
+              "WIPO Global Brand DB": "https://branddb.wipo.int/"
+            },
+            "search_links": {
+              "web search": "https://duckduckgo.com/?q=\"bitforge\"+trademark",
+              "USPTO search": "https://tmsearch.uspto.gov/search/search-information",
+              "EUIPO search": "https://euipo.europa.eu/eSearch/",
+              "WIPO search": "https://branddb.wipo.int/"
+            },
+            "public_hits": [],
+            "search_provider": "bing",
+            "public_search_blocked": false,
+            "checked_public_search": true
+          },
+          "note": "Trademarks are not auto-verifiable — check USPTO/EUIPO/WIPO manually"
+        }
+      },
+      "summary": {
+        "domains": {
+          "free": [
+            "io"
+          ],
+          "taken": [
+            "com",
+            "ai",
+            "co"
+          ],
+          "unknown": [],
+          "free_count": 1,
+          "taken_count": 3,
+          "unknown_count": 0
+        },
+        "handles": {
+          "free": [],
+          "taken": [
+            "github"
+          ],
+          "unknown": [
+            "x",
+            "telegram",
+            "reddit",
+            "instagram"
+          ],
+          "free_count": 0,
+          "taken_count": 1,
+          "unknown_count": 4
+        },
+        "verdict": "likely taken"
+      }
+    },
+    {
+      "name": "lumenpaw",
+      "handle": "lumenpaw",
+      "checked_at": "2026-11-13T23:37:18Z",
+      "checks": {
+        "domain:com": {
+          "status": "taken",
+          "confidence": "high",
+          "source": "https://rdap.org/domain/lumenpaw.com",
+          "checked_at": "2026-11-13T23:36:44Z",
+          "details": {
+            "domain": "lumenpaw.com",
+            "ldh_name": "LUMENPAW.COM",
+            "statuses": [
+              "client transfer prohibited"
+            ],
+            "registrar": "Dynadot Inc",
+            "events": {
+              "registration": "2026-10-15T23:54:18Z",
+              "expiration": "2027-10-15T23:54:18Z",
+              "last changed": "2026-10-21T12:58:12Z",
+              "last update of RDAP database": "2026-11-13T23:36:33Z"
+            }
+          },
+          "note": "RDAP found a registration"
+        },
+        "domain:io": {
+          "status": "free",
+          "confidence": "high",
+          "source": "https://rdap.org/domain/lumenpaw.io",
+          "checked_at": "2026-11-13T23:36:44Z",
+          "details": {
+            "domain": "lumenpaw.io"
+          },
+          "note": "RDAP: no registration (404)"
+        },
+        "domain:ai": {
+          "status": "free",
+          "confidence": "medium",
+          "source": "https://rdap.org/domain/lumenpaw.ai",
+          "checked_at": "2026-11-13T23:36:45Z",
+          "details": {
+            "domain": "lumenpaw.ai",
+            "rdap_status": 429,
+            "rdap_error": "HTTP 429"
+          },
+          "note": "DNS: NXDOMAIN (RDAP unavailable)"
+        },
+        "domain:co": {
+          "status": "free",
+          "confidence": "medium",
+          "source": "https://rdap.org/domain/lumenpaw.co",
+          "checked_at": "2026-11-13T23:36:45Z",
+          "details": {
+            "domain": "lumenpaw.co",
+            "rdap_status": 429,
+            "rdap_error": "HTTP 429"
+          },
+          "note": "DNS: NXDOMAIN (RDAP unavailable)"
+        },
+        "github": {
+          "status": "free",
+          "confidence": "high",
+          "source": "https://api.github.com/users/lumenpaw",
+          "checked_at": "2026-11-13T23:36:44Z",
+          "details": {
+            "handle": "lumenpaw"
+          },
+          "note": "GitHub: 404 (username is available)"
+        },
+        "x": {
+          "status": "unknown",
+          "confidence": "low",
+          "source": "https://x.com/lumenpaw",
+          "checked_at": "2026-11-13T23:37:16Z",
+          "details": {
+            "error": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+          },
+          "note": "X blocked the request / timeout"
+        },
+        "telegram": {
+          "status": "unknown",
+          "confidence": "low",
+          "source": "https://t.me/lumenpaw",
+          "checked_at": "2026-11-13T23:37:16Z",
+          "details": {
+            "error": "URLError: <urlopen error timed out>"
+          },
+          "note": "Telegram blocked the request / timeout"
+        },
+        "reddit": {
+          "status": "unknown",
+          "confidence": "low",
+          "source": "https://www.reddit.com/user/lumenpaw/about.json",
+          "checked_at": "2026-11-13T23:36:45Z",
+          "details": {
+            "error": "HTTP 403"
+          },
+          "note": "Reddit blocked anonymous access (429/403); verify manually"
+        },
+        "instagram": {
+          "status": "unknown",
+          "confidence": "low",
+          "source": "https://www.instagram.com/lumenpaw/",
+          "checked_at": "2026-11-13T23:37:17Z",
+          "details": {
+            "error": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+          },
+          "note": "Instagram blocked the request / timeout"
+        },
+        "itunes": {
+          "status": "free",
+          "confidence": "medium",
+          "source": "https://itunes.apple.com/search?term=lumenpaw&entity=software&country=us&limit=10",
+          "checked_at": "2026-11-13T23:36:46Z",
+          "details": {
+            "result_count": 9,
+            "exact_match": false,
+            "top_results": [
+              {
+                "name": "LotusLamp X",
+                "seller": "shenzhen ELK Technology Co., Ltd.",
+                "bundle_id": "com.szelk.LedLampPro"
+              },
+              {
+                "name": "Lume Control",
+                "seller": "Kelly Mondora",
+                "bundle_id": "com.lumecube.lumecontrol"
+              },
+              {
+                "name": "Light Meter - measure luminosity in lux, fc, lumen",
+                "seller": "Vlad Polyanskiy",
+                "bundle_id": "com.lightmeterpro.Light-Meter"
+              },
+              {
+                "name": "Lumecube",
+                "seller": "Kelly Mondora",
+                "bundle_id": "com.lumecube.lumecube"
+              },
+              {
+                "name": "LumaFold: Screen Light",
+                "seller": "Max Babenko",
+                "bundle_id": "com.meltedmen.lumafold"
+              }
+            ]
+          },
+          "note": "No exact-name app, but similar apps exist"
+        },
+        "google_play": {
+          "status": "unknown",
+          "confidence": "low",
+          "source": "https://play.google.com/store/search?q=lumenpaw&c=apps&hl=en&gl=US",
+          "checked_at": "2026-11-13T23:37:18Z",
+          "details": {
+            "direct": false,
+            "search_provider": "bing",
+            "search_hits": [],
+            "error": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+          },
+          "note": "Google Play page unavailable (blocked / timeout)"
+        },
+        "web": {
+          "status": "taken",
+          "confidence": "low",
+          "source": "https://duckduckgo.com/?q=%22lumenpaw%22",
+          "checked_at": "2026-11-13T23:36:46Z",
+          "details": {
+            "provider": "bing",
+            "count": 10,
+            "top_results": [
+              {
+                "title": "Reddit - Dive into anything",
+                "url": "https://www.reddit.com/",
+                "domain": "www.reddit.com"
+              },
+              {
+                "title": "Experience: Lumen.me : r/Biohackers - Reddit",
+                "url": "https://www.reddit.com/r/Biohackers/comments/g2j0ws/experience_lumenme/",
+                "domain": "www.reddit.com"
+              },
+              {
+                "title": "Lumen for weight loss? : r/orangetheory - Reddit",
+                "url": "https://www.reddit.com/r/orangetheory/comments/11dddj9/lumen_for_weight_loss/",
+                "domain": "www.reddit.com"
+              },
+              {
+                "title": "LumenTechnologies - Reddit",
+                "url": "https://www.reddit.com/r/LumenTechnologies/",
+                "domain": "www.reddit.com"
+              },
+              {
+                "title": "Has anyone tried the device called Lumen? : r/keto - Reddit",
+                "url": "https://www.reddit.com/r/keto/comments/195m39p/has_anyone_tried_the_device_called_lumen/",
+                "domain": "www.reddit.com"
+              }
+            ]
+          },
+          "note": "Name appears in search results (collision risk)"
+        },
+        "trademarks": {
+          "status": "manual",
+          "confidence": "low",
+          "source": "https://duckduckgo.com/?q=\"lumenpaw\"+trademark",
+          "checked_at": "2026-11-13T23:36:47Z",
+          "details": {
+            "manual": true,
+            "official_links": {
+              "USPTO (US)": "https://tmsearch.uspto.gov/search/search-information",
+              "USPTO TSDR (status)": "https://tsdr.uspto.gov/",
+              "EUIPO eSearch (EU)": "https://euipo.europa.eu/eSearch/",
+              "WIPO Global Brand DB": "https://branddb.wipo.int/"
+            },
+            "search_links": {
+              "web search": "https://duckduckgo.com/?q=\"lumenpaw\"+trademark",
+              "USPTO search": "https://tmsearch.uspto.gov/search/search-information",
+              "EUIPO search": "https://euipo.europa.eu/eSearch/",
+              "WIPO search": "https://branddb.wipo.int/"
+            },
+            "public_hits": [],
+            "search_provider": "bing",
+            "public_search_blocked": false,
+            "checked_public_search": true
+          },
+          "note": "Trademarks are not auto-verifiable — check USPTO/EUIPO/WIPO manually"
+        }
+      },
+      "summary": {
+        "domains": {
+          "free": [
+            "io",
+            "ai",
+            "co"
+          ],
+          "taken": [
+            "com"
+          ],
+          "unknown": [],
+          "free_count": 3,
+          "taken_count": 1,
+          "unknown_count": 0
+        },
+        "handles": {
+          "free": [
+            "github"
+          ],
+          "taken": [],
+          "unknown": [
+            "x",
+            "telegram",
+            "reddit",
+            "instagram"
+          ],
+          "free_count": 1,
+          "taken_count": 0,
+          "unknown_count": 4
+        },
+        "verdict": "likely taken"
+      }
+    }
+  ]
+}
