@@ -1,0 +1,3 @@
+# BrandCheck
+
+See README.md.
